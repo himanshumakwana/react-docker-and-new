@@ -1,4 +1,4 @@
-import { ErrorComponent } from "./ErrorCompoent";
+import { ErrorComponent } from "./error-bountry/ErrorCompoent";
 import ErroredComp from "./ErroredComp"
 import NormalComponent from "./NormalComponent"
 
