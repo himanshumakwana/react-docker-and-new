@@ -1,18 +1,11 @@
-import { ErrorComponent } from "./error-bountry/ErrorCompoent";
-import ErroredComp from "./error-bountry/ErroredComp"
-import NormalComponent from "./error-bountry/NormalComponent"
+import ErrorBountry from "./error-bountry/ErrorBountry";
+import LazyImport from "./lazy-suspense/LazyImport";
 
 function App() {
   return (
     <div className="App">
-      
-      <ErrorComponent>
-        <ErroredComp />
-      </ErrorComponent>
-
-      <ErrorComponent>
-        <NormalComponent />
-      </ErrorComponent>
+      {/* <ErrorBountry /> */}
+      <LazyImport />
     </div>
   );
 }
