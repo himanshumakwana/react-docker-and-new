@@ -1,14 +1,14 @@
 import { ErrorComponent } from "./error-bountry/ErrorCompoent";
-import ErroredComp from "./ErroredComp"
-import NormalComponent from "./NormalComponent"
+import ErroredComp from "./error-bountry/ErroredComp"
+import NormalComponent from "./error-bountry/NormalComponent"
 
 function App() {
   return (
     <div className="App">
       
-      {/* <ErrorComponent> */}
+      <ErrorComponent>
         <ErroredComp />
-      {/* </ErrorComponent> */}
+      </ErrorComponent>
 
       <ErrorComponent>
         <NormalComponent />
